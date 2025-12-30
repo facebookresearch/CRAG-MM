@@ -4,7 +4,7 @@ dotenv
 
 # Core ML frameworks
 vllm==0.10.1
-torch==2.7.1
+torch==2.8.0
 torchvision==0.22.1
 transformers
 accelerate>=0.26.0
