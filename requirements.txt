@@ -3,7 +3,7 @@ hf_transfer
 dotenv
 
 # Core ML frameworks
-vllm==0.10.1
+vllm==0.10.1.1
 torch==2.8.0
 torchvision==0.22.1
 transformers
