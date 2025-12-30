@@ -1,0 +1,35 @@
+# File transfer and loading utilities
+hf_transfer
+dotenv
+
+# Core ML frameworks
+vllm==0.10.1
+torch==2.7.1
+torchvision==0.22.1
+transformers
+accelerate>=0.26.0
+sentence-transformers
+
+# Data processing and modeling
+pandas
+pydantic
+datasets
+Pillow
+jinja2>=3.1.0
+tokenizers
+
+# API integrations
+openai
+anthropic
+google-generativeai
+cragmm-search-pipeline>=0.5.0
+chromadb>=1.0.0
+google.generativeai
+mistral_common
+qwen_vl_utils
+xai_sdk
+
+# Misc
+loguru
+rich
+tqdm

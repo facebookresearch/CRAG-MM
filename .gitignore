@@ -1,0 +1,10 @@
+**/__pycache__
+
+# Environment files
+.env
+.vscode
+
+# Results directory
+results/
+
+debug_images/
