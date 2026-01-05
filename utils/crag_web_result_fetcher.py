@@ -1,3 +1,9 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 """DO NOT MODIFY THIS FILE.
 
 This file has simple functionality to get the full page content of a web search result.
