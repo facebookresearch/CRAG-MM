@@ -22,7 +22,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
-from utils import display_results, ensure_crag_cache_dir_is_configured
+from utils.utils import display_results, ensure_crag_cache_dir_is_configured
 
 load_dotenv()
 

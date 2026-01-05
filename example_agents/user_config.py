@@ -6,6 +6,7 @@
 
 from .closed_model_agents import ClaudeAgent, GeminiAgent, GPTAgent
 from .open_source_model_agents import InternVLAgent, LlamaAgent, PixtralAgent, QwenAgent
+from .random_agent import RandomAgent
 
 # Mapping from model name keywords to agent names
 MODEL_KEYWORD_TO_AGENT = {
@@ -16,6 +17,7 @@ MODEL_KEYWORD_TO_AGENT = {
     "llama": LlamaAgent,
     "internvl": InternVLAgent,
     "qwen": QwenAgent,
+    "random": RandomAgent
 }
 
 

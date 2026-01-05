@@ -1,3 +1,9 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
 """
 LLM-as-a-Judge implementation for semantic evaluation.
 
@@ -9,7 +15,7 @@ import time
 from typing import Tuple
 
 from evaluation.config import MAX_API_RETRIES, MAX_EVAL_TOKENS
-from evaluation_prompt import CRAGMultiModalPrompts
+from evaluation.evaluation_prompt import CRAGMultiModalPrompts
 
 from openai import OpenAI
 from rich.console import Console

@@ -11,7 +11,7 @@ This module provides a modular evaluation framework for the CRAG-MM benchmark,
 with components for configuration, dataset utilities, LLM-based judging, and evaluation orchestration.
 """
 
-from evaluation.config import (
+from .config import (
     DEFAULT_EVAL_MODEL,
     DEFAULT_NUM_WORKERS,
     MAX_API_RETRIES,
@@ -22,13 +22,13 @@ from evaluation.config import (
     SESSIONS_TO_SKIP,
     SESSIONS_TO_UPDATE,
 )
-from evaluation.dataset_utils import (
+from .dataset_utils import (
     clean_text,
     convert_domain_indices_to_names,
     prepare_feature_vocabularies,
 )
-from evaluation.evaluator import CRAGEvaluator
-from evaluation.llm_judge import LLMJudge
+from .evaluator import CRAGEvaluator
+from .llm_judge import LLMJudge
 
 __all__ = [
     # Evaluator

@@ -8,7 +8,7 @@ from abc import abstractmethod
 from typing import Any, TypeAlias
 
 from PIL import Image
-from utils import resize_image_if_needed
+from utils.utils import resize_image_if_needed
 
 from .prompt_constants import SYSTEM_MULTI_PROMPT, SYSTEM_PROMPT
 

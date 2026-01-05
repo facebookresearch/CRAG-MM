@@ -23,7 +23,7 @@ import tqdm
 from datasets import Dataset, load_dataset
 from loguru import logger
 from PIL import Image
-from utils import download_image_url, parse_jsonl_to_dict
+from .utils import download_image_url, parse_jsonl_to_dict
 
 
 class ImageLoader:
