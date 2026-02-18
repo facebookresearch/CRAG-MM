@@ -1,8 +1,7 @@
 # CRAG-MM: MULTI-MODAL MULTI-TURN COMPREHENSIVE RAG BENCHMARK
 [![arXiv](https://img.shields.io/badge/arXiv-2510.26160-b31b1b.svg)](https://arxiv.org/abs/2510.26160)
 
-
- CRAG-MM is a Comprehensive RAG benchmark for Multi-modal Multi-turn conversations. The benchmark contains a diverse set of (image, question, answer) triplets and visual-based multi-turn conversations across 13 domains, including 6.2K egocentric images designed to emulate wearable captures. The benchmark is designed to encapsulate real-world challenges in wearables AI applications, consisting of various image-quality issues, question types, entity popularity and information dynamism, as well as multi-turn dependencies.
+ [CRAG-MM](https://arxiv.org/abs/2510.26160) is a Comprehensive RAG benchmark for Multi-modal Multi-turn conversations. The benchmark contains a diverse set of (image, question, answer) triplets and visual-based multi-turn conversations across 13 domains, including 6.2K egocentric images designed to emulate wearable captures. The benchmark is designed to encapsulate real-world challenges in wearables AI applications, consisting of various image-quality issues, question types, entity popularity and information dynamism, as well as multi-turn dependencies.
 
 # Table of Contents
 
